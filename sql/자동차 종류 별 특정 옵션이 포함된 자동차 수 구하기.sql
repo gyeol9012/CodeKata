@@ -35,6 +35,9 @@
 -- 세단	1
 -- 트럭	1
 
+-- 본 문제는 Kaggle의 "Austin Animal Center Shelter Intakes and Outcomes"에서 제공하는 데이터를 사용하였으며
+-- ODbL의 적용을 받습니다.
+
 SELECT CAR_TYPE,COUNT(*) CARS
 FROM CAR_RENTAL_COMPANY_CAR
 WHERE OPTIONS LIKE '%가죽시트%' OR OPTIONS LIKE '%열선시트%' OR OPTIONS LIKE '%통풍시트%'
